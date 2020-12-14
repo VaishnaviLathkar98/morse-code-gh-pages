@@ -1,0 +1,84 @@
+html, body {
+  background: #3C495F;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  width: 100%;
+  font-family: monospace;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+h1 {
+  color: #f6fafd;
+  text-align: center;
+  font-size: 36pt;
+  margin-top: 1em;
+}
+
+main.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  min-height: 240px;
+  width: 660px;
+}
+
+.sentence-container,
+.word-container,
+.letter-container,
+.stats-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.sentence-container {
+  flex: 3;
+  background: #212B3C;
+  font-size: 24px;
+  padding: 1em;
+}
+
+.word-container {
+  flex: 1;
+  background: #212B3C;
+}
+
+.letter-container {
+  flex: 1;
+  background: #283447;
+}
+
+.stats-container {
+  margin-top: 1em;
+}
+
+#morse-code-table {
+  margin: 2em auto;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#morse-code-table td:nth-child(even) {
+  padding: 0 3em 0 1em;
+}
+
+footer {
+  margin: 50px 0 auto 0;
+  text-align: center;
+}
+
+footer a {
+  color: #f5dddd;
+  text-decoration: none;
+}
+
+footer a:visited {
+  color: #53687e;
+  text-decoration: underline;
+}
